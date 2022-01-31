@@ -135,7 +135,12 @@ img {
     list-style:none;
     padding: 5px;
     flex-grow: 1;
-    
+    background-color: #C4E6B2;
+    border: 1px solid #795D53;
+    margin-top: -1px;
+    margin-left: 8px;
+    margin-right: 8px;
+    outline: none;
 }
 
 .sidelist {
