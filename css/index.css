@@ -2,15 +2,7 @@
 
 /*middle stuff*/
 
-.content {
-    background-color:ivory;
-    display:flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex:4;
-    gap: 8px;
-    padding-bottom: 32px;
-}
+
 
 /*the text at the top */
 
