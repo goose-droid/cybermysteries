@@ -4,7 +4,6 @@ body {
     height: 100vh;
     display:flex;
     flex-direction: column;
-    
     margin: 0;
     background-color: ivory;
 }
@@ -26,7 +25,6 @@ header.index {
     justify-content:center;
     background-color: #C4E6B2;
     max-height: 75px;
-    flex:1;
 }
 
 header {
@@ -46,6 +44,7 @@ h1 {
 
 main {
     display:flex;
+    flex:1;
 }
 
 
@@ -54,9 +53,13 @@ section {
     display:flex;
     justify-content: space-around;
     flex-direction: column;
-
+    flex:4;
     gap: 8px;
     padding-bottom: 32px;
+}
+
+aside {
+    flex: 1;
 }
 
 /*right sidebar*/
@@ -99,15 +102,14 @@ section {
 
 /*footer*/
 
-.footer {
-    max-height: 50px;
+footer {
+    /* max-height: 50px; */
     background-color: #C4E6B2;
     display: flex;
     justify-content: space-between;
     font-family:'Courier New', Courier, monospace;
     color: #2E2E24;
     align-items:center;
-    flex: 1;
     
 }
 
