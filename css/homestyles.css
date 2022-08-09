@@ -17,7 +17,7 @@ body {
 
 
 
-.burger {
+main {
     display:flex;
     flex:8;
     
@@ -35,7 +35,7 @@ a {
 
 /*middle stuff*/
 
-.content {
+section {
     background-color:ivory;
     display:flex;
     justify-content: space-around;
@@ -113,7 +113,7 @@ img {
 
 }
 
-.right-sidebar {
+.left-sidebar {
     background-color: #DFF8EB;
     max-width: 300px;
     display:flex;
@@ -123,7 +123,7 @@ img {
     
 }
 
-.right-sidebar h3 {
+.left-sidebar h3 {
     font-family:'Courier New', Courier, monospace;
     text-align:center;
     font-size: 20px;
